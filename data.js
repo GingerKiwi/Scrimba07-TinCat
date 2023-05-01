@@ -91,5 +91,6 @@ const cats = [
     }
 ]
 
+export default cats
 // Add alt tag to data for all images!
 // Remember to export the data!
