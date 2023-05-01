@@ -38,7 +38,7 @@ const cats = [
         name: "Azriel",
         avatar: "/assets/cat-azzy.jpg",
         alt: "Alt image text here!",
-        age: 8,
+        age: 08,
         bio: "I loves giving ginger headbutts, and catching the red dot",
         hasBeenSwiped: false,
         hasBeenLiked: false
@@ -84,7 +84,7 @@ const cats = [
         name: "Maybel Victoria Anne Elizabeth",
         avatar: "/assets/cat-frodo.jpg",
         alt: "Alt image text here!",
-        age: 01,
+        age: 06,
         bio: "I'm cute and snuggly - but never forget I was born on the streets!",
         hasBeenSwiped: false,
         hasBeenLiked: false
