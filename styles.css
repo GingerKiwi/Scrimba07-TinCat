@@ -3,6 +3,7 @@
     --clr-white-almost: #F8F8F8;
     --clr-green-light: #DBFFF4;
     --clr-red-light: #FFE7EF;
+    --clr-orange-light: #FED9B7;
 
     --ff-sans-01: 'Poppins', serif;
 
@@ -90,4 +91,36 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+/* --- TYPOGRAPHY --- */
+
+body {
+    font-family: var(--ff-sans-01);
+    font-weight: var(--fw-regular);
+    color: var(--clr-white-almost);
+    background-color: black;
+}
+
+.cat-name {
+    color: var(--clr-white-almost);
+    font-weight: var(--fw-semi-bold);
+}
+
+/* Utility Classes */
+
+
+/* --- LAYOUT --- */
+
+.container {
+    width: 550px;
+    height: 973px;
+    background-color: var(--clr-orange-light);
+    margin: auto;
+    display: grid;
+}
+
+.icon {
+    max-width: 2.5rem;
+    /* padding: 1rem 1.5rem; */
 }
