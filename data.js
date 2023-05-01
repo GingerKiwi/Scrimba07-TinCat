@@ -30,7 +30,7 @@ const cats = [
         avatar: "/assets/cat-kitten.jpg",
         alt: "Alt image text here!",
         age: 16,
-        bio: "Food, naps, cuddles, and brushing",
+        bio: "Food, naps, cuddles, adventures, and brushing",
         hasBeenSwiped: false,
         hasBeenLiked: false
     },
