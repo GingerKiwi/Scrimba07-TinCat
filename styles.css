@@ -119,8 +119,8 @@ body {
     background-color: var(--clr-orange-light);
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, auto); */
 }
 
 .icon {
@@ -128,11 +128,12 @@ body {
     /* padding: 1rem 1.5rem; */
 }
 
-header {
+.top-section {
     display: grid;
     grid-gap: 1rem;
     justify-content: space-between;
-    grid-column-start: span 3;
+    align-items: center ;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 img {
