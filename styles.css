@@ -6,6 +6,7 @@
     /* Testing colours */
     --clr-orange-light: #FED9B7;
     --clr-magenta: #BA2C73;
+    --fw-bold: font-weight: 800;
 
     --ff-sans-01: 'Poppins', serif;
 
@@ -104,15 +105,25 @@ body {
     background-color: black;
 }
 
-.cat-name {
+.cat-name, .cat-bio {
     color: var(--clr-magenta);
-    font-weight: var(--fw-semi-bold);
+    font-weight: var(--fw-bold);
 }
 
 /* Utility Classes */
 
 
 /* --- LAYOUT --- */
+
+main {
+    min-width: 540px;
+    border: red solid 2px;
+}
+
+section {
+    margin: 1rem 0;
+    border: blue solid 2px;
+}
 .container {
     width: 550px;
     height: 973px;
@@ -125,15 +136,24 @@ body {
 
 .icon {
     max-width: 2.5rem;
-    /* padding: 1rem 1.5rem; */
+    /* margin: auto; */
 }
 
 .top-section {
+    /* display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between; */
     display: grid;
     grid-gap: 1rem;
     justify-content: space-between;
-    align-items: center ;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.choice {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 img {
@@ -144,8 +164,4 @@ img {
     display: grid;
 }
 
-.choice {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
+
